@@ -43,8 +43,16 @@ function append(event) {
             item = '/'; break;
         case 'modulo':
             item = '%'; break;
+        case 'power':
+            item = '**('; break;
         case 'square':
             item = '**2'; break;
+        case 'square-root':
+            item = '**(1/2)'; break;
+        case 'cube':
+            item = '**3'; break;
+        case 'cube-root':
+            item = '**(1/3)'; break;
     }
     
     var input = document.querySelector("input");
