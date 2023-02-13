@@ -5,7 +5,7 @@
 
 body{
     background-image: linear-gradient(30deg, rgb(196, 236, 135), rgb(103, 201, 240));
-    height: 100vh;
+    height: auto;
 }
 
 form{
@@ -22,11 +22,11 @@ input{
     padding: 1rem;
     width: fit-content;
     font-size: 1.4rem;
-    overflow: scroll;
+    overflow:scroll;
 }
 
 .btn{
-    padding: 2rem;
+    padding: 1.4rem;
     height: auto;
     width: max-content;
 }
@@ -36,6 +36,7 @@ input{
         padding: 0.5rem;
     }
     .btn{
+        margin-top: 0.1rem;
         padding: 1rem;
     }
 }
