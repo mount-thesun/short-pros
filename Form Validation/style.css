@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.4b5b787b46a4fd9d8089d78c5d655fe3?rik=vXQreKmiwL0Gxg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f1%2f1%2f1136527-new-glacier-wallpaper-1920x1080.jpg&ehk=c8rT5YLUfhxr6Vt5UmnVH6Ipoi1vxvs17HzmXLjUhKQ%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+form{
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding: 1.4rem;
+    border: 0.2rem;
+    border-style: ridge;
+    border-collapse: collapse;
+    border-color: blue;
+    border-radius: 0.7rem;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+label{
+    margin-inline-end: 1rem;
+    padding: 0.5rem;
+    width: max-content;
+    color: rgb(19, 0, 128);
+}
+
+input{
+    padding: 0.3rem 1rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+}
+
+input:focus{
+    background-color: rgba(189, 223, 255, 0.942);;
+}
+
+#button{
+    background-color: darkblue;
+    color: aliceblue;
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+
+#button:hover{
+    background-color: rgba(0, 255, 0, 0.5);
+    color: black;
+}
