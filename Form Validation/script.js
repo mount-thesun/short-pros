@@ -31,7 +31,7 @@ phone.addEventListener("change", checkPhone);
 
 function checkPhone() {
     const input = phone.value;
-    if(input.length < 10 || input === "1234567890") 
+    if(input.length != 10 || input === "1234567890") 
         alert("Enter a valid Phone Number");
     else
         flag[2]=0;
