@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    color: aliceblue;
+    min-height: 100vh;
+}
+
+h1, form, .container, .to-do-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+input, button{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.to-do-container{
+    background-color: white;
+    color: black;
+    margin: 0.3rem 0rem;
+    min-height: fit-content;
+}
+
+.to-do-item{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+    flex-grow: 1;
+}
+
+button{
+    cursor: pointer;
+}
+
+.fa-solid{
+    pointer-events: none;
+}
+
+.completed{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
