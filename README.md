@@ -1,2 +1,2 @@
 # short-pros
-Beginner projects on HTML, CSS and JavaScript
+Beginner projects on HTML, CSS and JavaScript, Java
